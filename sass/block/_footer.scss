@@ -1,0 +1,23 @@
+.footer{
+
+    &__wrapper{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        
+
+    }
+
+    &__desc{
+        color: #645C55;
+        line-height: 20px;
+    }
+
+    &__block{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__social{
+        margin-top: 40px;
+    }
+}

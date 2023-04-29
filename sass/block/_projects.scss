@@ -1,0 +1,36 @@
+.projects{
+    &__wrapper{
+        min-height: 600px;
+        position: relative;
+
+        &__first{
+            background: url(../img/bcg_1.jpg) center (center / 
+            cover) no-repeat;
+        }
+
+        &__second{
+            background: url(../img/bcg_2.png) center (center / 
+            cover) no-repeat;
+        }
+
+        &__third{
+            background: url(../img/bcg_3.png) center (center /
+            cover) no-repeat;
+        }
+    }
+      &__subheader{
+        font-size: 14px;
+        padding-top: 270px;
+        padding-left: 1080px;
+        color: #403E3B;
+    }
+
+    &__descr{
+        font-size: 16px;
+        padding-left: 1080px;
+        color: #645C55;
+        line-height: 24px;
+    }
+
+    
+}

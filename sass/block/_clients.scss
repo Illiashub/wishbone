@@ -1,0 +1,49 @@
+.clients{
+    background-color: #403E3B;
+    padding: 0px;
+    margin: 0px;
+
+    &__report{
+        padding-left: 120px;
+        padding-top: 70px;
+
+    }
+
+    &__title{
+        margin: 0px;
+        padding-top: 3px;
+        color: #ECE7E4;
+        font-weight: 400;
+        font-size: 32px;
+    }
+
+    &__subtitle{
+        margin: 0px;
+        color: #ECE7E4;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    &__descr{
+        color: #ECE7E4;
+        padding-top: 10px;
+        width: 380px;
+        padding-bottom: 70px;
+    }
+
+    &__block{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        padding-right: 200px;
+        align-items: center;
+        width: 432px;
+        height: 290px;
+    }
+
+}

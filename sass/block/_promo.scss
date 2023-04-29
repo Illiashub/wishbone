@@ -1,0 +1,38 @@
+.promo{
+    background-color: #ECE7E4;
+    &__img{
+        width: 720px;
+        height: 720px;
+    }
+    &__block{
+        display: flex;
+        justify-content: baseline;
+    }
+    &__subtitle{
+        font-size: 14px;
+        padding-top: 137px;
+        padding-left: 100px;
+    }
+    &__title{
+        padding-left: 100px;
+        margin: 0px;
+        font-size: 64px;
+        font-weight: 400;
+    }
+    &__descr{
+        padding-left: 89px;
+        font-size: 16px;
+        width: 420px;
+        padding-top: 18px;
+        color: #403E3B;
+        
+    }
+    &__btn{
+        display: block;
+        padding-left: 94px;
+        padding-top: 30px;
+        text-decoration: none;
+        color: black;
+    }
+    
+}
